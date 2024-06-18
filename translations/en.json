@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Brinno Mail Notifications",
+        "data": {
+          "mailbox_name": "Mailbox Name",
+          "imap_server": "IMAP Server",
+          "imap_port": "IMAP Port",
+          "use_ssl": "Use SSL",
+          "email": "Email",
+          "password": "Password",
+          "mark_as_read": "Mark emails as read",
+          "delete_after_download": "Delete emails after download"
+        }
+      }
+    },
+    "error": {
+      "name_exists": "Mailbox name already exists"
+    }
+  },
+  "title": "Brinno Mail Notifications"
+}

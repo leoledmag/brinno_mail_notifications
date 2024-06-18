@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar Notificaciones de Correo Brinno",
+        "data": {
+          "mailbox_name": "Nombre del Buzón",
+          "imap_server": "Servidor IMAP",
+          "imap_port": "Puerto IMAP",
+          "use_ssl": "Usar SSL",
+          "email": "Correo Electrónico",
+          "password": "Contraseña",
+          "mark_as_read": "Marcar correos como leídos",
+          "delete_after_download": "Eliminar correos después de descargar"
+        }
+      }
+    },
+    "error": {
+      "name_exists": "El nombre del buzón ya existe"
+    }
+  },
+  "title": "Notificaciones de Correo Brinno"
+}

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar Notificacions de Correu Brinno",
+        "data": {
+          "mailbox_name": "Nom de la bústia",
+          "imap_server": "Servidor IMAP",
+          "imap_port": "Port IMAP",
+          "use_ssl": "Utilitza SSL",
+          "email": "Correu Electrònic",
+          "password": "Contrasenya",
+          "mark_as_read": "Marcar els correus com a llegits",
+          "delete_after_download": "Eliminar correus després de descarregar"
+        }
+      }
+    },
+    "error": {
+      "name_exists": "El nom de la bústia ja existeix"
+    }
+  },
+  "title": "Notificacions de Correu Brinno"
+}

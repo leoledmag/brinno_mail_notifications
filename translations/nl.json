@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Brinno Mailmeldingen instellen",
+        "data": {
+          "mailbox_name": "Postvaknaam",
+          "imap_server": "IMAP-server",
+          "imap_port": "IMAP-poort",
+          "use_ssl": "Gebruik SSL",
+          "email": "E-mail",
+          "password": "Wachtwoord",
+          "mark_as_read": "E-mails als gelezen markeren",
+          "delete_after_download": "E-mails na downloaden verwijderen"
+        }
+      }
+    },
+    "error": {
+      "name_exists": "Postvaknaam bestaat al"
+    }
+  },
+  "title": "Brinno Mailmeldingen"
+}

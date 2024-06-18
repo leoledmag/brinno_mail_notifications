@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Brinno Mail-Benachrichtigungen einrichten",
+        "data": {
+          "mailbox_name": "Postfachname",
+          "imap_server": "IMAP-Server",
+          "imap_port": "IMAP-Port",
+          "use_ssl": "SSL verwenden",
+          "email": "E-Mail",
+          "password": "Passwort",
+          "mark_as_read": "E-Mails als gelesen markieren",
+          "delete_after_download": "E-Mails nach dem Herunterladen löschen"
+        }
+      }
+    },
+    "error": {
+      "name_exists": "Postfachname existiert bereits"
+    }
+  },
+  "title": "Brinno Mail-Benachrichtigungen"
+}

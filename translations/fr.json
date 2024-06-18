@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurer les notifications de courrier Brinno",
+        "data": {
+          "mailbox_name": "Nom de la boîte aux lettres",
+          "imap_server": "Serveur IMAP",
+          "imap_port": "Port IMAP",
+          "use_ssl": "Utiliser SSL",
+          "email": "Email",
+          "password": "Mot de passe",
+          "mark_as_read": "Marquer les emails comme lus",
+          "delete_after_download": "Supprimer les emails après téléchargement"
+        }
+      }
+    },
+    "error": {
+      "name_exists": "Le nom de la boîte aux lettres existe déjà"
+    }
+  },
+  "title": "Notifications de courrier Brinno"
+}
