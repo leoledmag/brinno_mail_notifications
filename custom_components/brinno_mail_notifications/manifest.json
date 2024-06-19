@@ -1,11 +1,11 @@
 {
   "domain": "brinno_mail_notifications",
   "name": "Brinno Mail Notifications",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "documentation": "https://github.com/leoledmag/brinno_mail_notifications",
   "dependencies": [],
   "codeowners": ["@leoledmag"],
   "requirements": ["imapclient", "pillow", "imageio"],
   "config_flow": true,
-  "icon": "custom_components/brinno_mail_notifications/icons/brinno_icon.png"
+  "icon": "icons/brinno_icon.png"
 }
