@@ -36,6 +36,10 @@ class BrinnoMailSensor(Entity):
     @property
     def state(self):
         return self._state
+        
+    @property
+    def icon(self):
+        return "mdi:doorbell-video" 
 
     def update(self):
         self.check_mail()

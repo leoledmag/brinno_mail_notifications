@@ -6,5 +6,6 @@
   "dependencies": [],
   "codeowners": ["@leoledmag"],
   "requirements": ["imapclient", "pillow", "imageio"],
-  "config_flow": true
+  "config_flow": true,
+  "icon": "custom_components/brinno_mail_notifications/icons/brinno_icon.png"
 }
