@@ -1,7 +1,7 @@
 {
   "domain": "brinno_mail_notifications",
   "name": "Brinno Mail Notifications",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "documentation": "https://github.com/leoledmag/brinno_mail_notifications",
   "dependencies": [],
   "codeowners": ["@leoledmag"],
