@@ -11,7 +11,7 @@ class BrinnoMailSensor(Entity):
         self.hass = hass
         self.config = config
         self._state = None
-        self._media_path = hass.config.path("media/Brinno")
+        self._media_path = hass.config.path("Brinno")
         self.mail_handler = MailHandler(
             imap_server=config["imap_server"],
             imap_port=config["imap_port"],
@@ -23,23 +23,24 @@ class BrinnoMailSensor(Entity):
             delete_after_download=config["delete_after_download"],
             media_path=self._media_path
         )
-        self.check_mail()
+        self._unique_id = f"brinno_mail_sensor_{config['mailbox_name']}"
+        self._name = f"Brinno Mail Sensor {self.config['mailbox_name']}"
 
-    def check_mail(self):
-        self.mail_handler.check_mail()
-        self._state = "Mail Checked"
+    async def async_added_to_hass(self):
+        await self.mail_handler.check_mail()
 
     @property
     def name(self):
-        return f"Brinno Mail Sensor {self.config['mailbox_name']}"
+        return self._name
+
+    @property
+    def unique_id(self):
+        return self._unique_id
 
     @property
     def state(self):
         return self._state
-        
-    @property
-    def icon(self):
-        return "mdi:doorbell-video" 
 
-    def update(self):
-        self.check_mail()
+    async def async_update(self):
+        await self.mail_handler.check_mail()
+        self._state = "Mail Checked"

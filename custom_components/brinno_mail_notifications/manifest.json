@@ -5,7 +5,9 @@
   "documentation": "https://github.com/leoledmag/brinno_mail_notifications",
   "dependencies": [],
   "codeowners": ["@leoledmag"],
-  "requirements": ["imapclient", "pillow", "imageio"],
+  "requirements": ["imapclient", "pillow", "imageio", "imageio-ffmpeg"],
   "config_flow": true,
-  "icon": "icons/brinno_icon.png"
+  "media_source": true,
+  "integration_type": "device",
+  "iot_class": "cloud_polling"
 }
