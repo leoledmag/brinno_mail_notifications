@@ -1,0 +1,11 @@
+check_mail:
+  description: "Get Lastest Images from for Brinno"
+  fields:
+    mailbox_name:
+      description: "Brino name to execute the service on"
+      example: "my_mailbox"
+      required: true
+    mail_uuid:
+      description: "Optional mail UUID to download"
+      example: "12345"
+      required: false

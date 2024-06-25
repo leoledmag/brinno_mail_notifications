@@ -11,7 +11,7 @@ class BrinnoMailSensor(Entity):
         self.hass = hass
         self.config = config
         self._state = None
-        self._media_path = hass.config.path("Brinno")
+        self._media_path = hass.config.path("brinno")
         self.mail_handler = MailHandler(
             imap_server=config["imap_server"],
             imap_port=config["imap_port"],

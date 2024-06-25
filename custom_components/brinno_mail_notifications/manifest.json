@@ -1,11 +1,11 @@
 {
   "domain": "brinno_mail_notifications",
   "name": "Brinno Mail Notifications",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "documentation": "https://github.com/leoledmag/brinno_mail_notifications",
   "dependencies": [],
   "codeowners": ["@leoledmag"],
-  "requirements": ["imapclient", "pillow", "imageio", "imageio-ffmpeg"],
+  "requirements": ["imapclient", "pillow", "imageio", "imageio-ffmpeg", "aiofiles"],
   "config_flow": true,
   "media_source": true,
   "integration_type": "device",
